@@ -12,14 +12,16 @@
         <table padding="0" spacing="0" height="100%" width="100%" id="bodyTable">
             <tr>
                 <td align="center" valign="top">
-                    <table width="600" id="emailContainer">
+                    <table width="600px" id="emailContainer">
                         <tr>
                             <td align="center" valign="top">
                                 <table width="100%" id="emailHeader">
                                     <tr>
-                                        <td align="center" valign="top" id="headerText">
-                                            <img src="./assets/logo.png" class="img-fluid" id="logo">
-                                        </td>
+                                        <th>
+                                            <td align="center" valign="top" id="headerImage">
+                                                <img src="./assets/logo.png" class="img-fluid" id="logo">
+                                            </td>
+                                        </th> 
                                     </tr>
                                     <tr>
                                         <td align="center" valign="top" id="headerText">
@@ -87,20 +89,18 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr>
-                            <td align="center" valign="top">
-                                <table role="presentation" border="0" width="100%" id="emailFooter">
-                                    <tr>
-                                        <td align="center" valign="top">
-                                            <a href="#">Unsubscribe</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <a href="#">Unsubscribe</a>
+                                </td>
+                            </tr>
+                        </tfoot>
+                        
                     </table>
                 </td>
             </tr>
         </table>
+        
     </body>
 </html>
